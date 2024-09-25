@@ -1,0 +1,12 @@
+first
+
+lex minc.l
+
+yacc -d minc.y //generates token header file 
+
+gcc lex.yy.c y.tab.c -o ownc
+
+assemble as
+
+linked ld
+
